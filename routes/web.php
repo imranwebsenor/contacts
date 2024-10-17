@@ -7,7 +7,7 @@ use App\Http\Controllers\Admin\ContactController;
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->to('login');
 });
 Auth::routes(['register' => false, 'verify' => false]);
 Route::group(['middleware' => ['auth']], function () {

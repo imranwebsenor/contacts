@@ -57,7 +57,7 @@ class ContactController extends Controller
             ->make(true);
     }
 
-   
+
     /**
      * Show the form for creating a new Contact.
      *

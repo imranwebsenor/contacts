@@ -186,37 +186,18 @@
     </style>
     <meta charset="UTF-8">
     <title>Login Page in HTML with CSS Code Example</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/logo.png') }}">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/logo.png') }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/logo.png') }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/logo.png') }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/logo.png') }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/logo.png') }}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/logo.png') }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/logo.png') }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/logo.png') }}">
-    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('assets/logo.png') }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/logo.png') }}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/logo.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/logo.png') }}">
 </head>
 
 <body>
     <!-- partial:index.partial.html -->
     <div class="box-form">
         <div  class="left">
-	  
+
         <div class="overlay text-center d-flex align-items-center">
-		
-          <img src="{{ asset('assets/logo.png') }}" style="height: 294px; width: 237px;margin-left: 212px;" alt="">
-          <h1>Contac Management</h1>
+
+          <img src="{{ asset('assets/logo.png') }}" style="height: 280px;" alt="">
+          <h1 style="margin-top:0px !important">Contact Management</h1>
 		</div>
 	</div>
 
