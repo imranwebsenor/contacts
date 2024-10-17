@@ -19,4 +19,14 @@ Route::group(['middleware' => ['auth']], function () {
 
 });
 
+Route::get('send-mail' , function(){
+    try {
+        $res = \Mail::to('it@wecognition.com')->send(new \App\Mail\Test());
+        dd($res ,'hello');
+        //code...
+    } catch (\Throwable $th) {
+        dd($th);
+    }
+
+});
 Auth::routes();
